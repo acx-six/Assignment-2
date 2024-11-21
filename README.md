@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Dependencies](#dependencies)
-3. [Dataset](#dataset)
+3. [Dataset](#load-the-dataset)
 4. [Data Preprocessing](#data-preprocessing)
 5. [Model Training and Hyperparameter Tuning](#model-training-and-hyperparameter-tuning)
 6. [Final Model Evaluation](#final-model-evaluation)
