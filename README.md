@@ -14,7 +14,7 @@
 
 ---
 
-## Introduction
+# **Introduction**
 
 This repository demonstrates the application of **Linear Regression with Ridge Regularization** on a dataset to predict heating load in buildings based on several architectural and environmental features. The project includes preprocessing, feature selection, model tuning, evaluation, and visualization to assess the model's performance. The aim is to showcase how Ridge regularization can help manage multicollinearity and improve the model's generalization capabilities.
 
@@ -432,7 +432,7 @@ plt.show()
     
 
 
-**Key Points:**
+## Key Points:
 
 **Feature Importance:** The length of the bar indicates the relative importance of the feature. Longer bars correspond to features that have a greater impact on the target variable.
 Coefficient Direction:
