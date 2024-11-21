@@ -16,7 +16,9 @@
 
 # **Introduction**
 
-This activity demonstrates the application of **Linear Regression with Ridge Regularization** on a dataset to predict heating load in buildings based on several architectural and environmental features. The project includes preprocessing, feature selection, model tuning, evaluation, and visualization to assess the model's performance. The aim is to showcase how Ridge regularization can help manage multicollinearity and improve the model's generalization capabilities.
+This activity demonstrates the application of **Linear Regression with Ridge Regularization** on a [Energy Efficiency dataset](https://archive.ics.uci.edu/dataset/242/energy+efficiency) to predict heating load in buildings based on several architectural and environmental features. The project includes preprocessing, feature selection, model tuning, evaluation, and visualization to assess the model's performance. The aim is to showcase how Ridge regularization can help manage multicollinearity and improve the model's generalization capabilities.
+
+[Jupyter Notebook file](https://github.com/acx-six/Assignment-2/blob/main/assignment2/Assignment2Final.ipynb)
 
 ---
 
