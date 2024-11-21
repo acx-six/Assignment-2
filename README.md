@@ -1,6 +1,6 @@
 # Linear Regression with Ridge Regularization
 
-## 📋 Table of Contents
+## Table of Contents
 1. [Introduction](#introduction)
 2. [Dependencies](#dependencies)
 3. [Dataset](#dataset)
@@ -14,13 +14,13 @@
 
 ---
 
-## 📝 Introduction
+## Introduction
 
 This repository demonstrates the application of **Linear Regression with Ridge Regularization** on a dataset to predict heating load in buildings based on several architectural and environmental features. The project includes preprocessing, feature selection, model tuning, evaluation, and visualization to assess the model's performance. The aim is to showcase how Ridge regularization can help manage multicollinearity and improve the model's generalization capabilities.
 
 ---
 
-## 🔧 Dependencies
+## Dependencies
 
 The following libraries are required to run this project:
 
@@ -30,6 +30,7 @@ pandas
 matplotlib
 scikit-learn
 
+```
 
 # **Import Necessary Libraries**
 
