@@ -1,5 +1,3 @@
-# Linear Regression With Ridge
-
 # **Import Necessary Libraries**
 
 
