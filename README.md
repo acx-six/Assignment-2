@@ -5,7 +5,7 @@
 2. [Dependencies](#dependencies)
 3. [Dataset](#load-the-dataset)
 4. [Data Preprocessing](#data-preprocessing)
-5. [Model Training and Hyperparameter Tuning](#model-training-and-hyperparameter-tuning-(Ridge-Regularization))
+5. [Model Training and Hyperparameter Tuning (Ridge Regularization)](#model-training-and-hyperparameter-tuning-ridge-regularization)
 6. [Final Model Evaluation](#final-model-evaluation-on-test-data)
 7. [Model Coefficients and Feature Importance](#model-coefficients-and-feature-importance)
 8. [Evaluating with Top 5 Features](#evaluating-with-top-5-features)
