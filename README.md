@@ -9,7 +9,7 @@
 6. [Final Model Evaluation](#final-evaluation-on-test-data)
 7. [Model Coefficients and Feature Importance](#model-coefficients-and-feature-importance)
 8. [Evaluating with Top 5 Features](#evaluating-with-top-5-features)
-9. [Key Observations](#impact-of-removing-certain-features)
+9. [Key Observations](#1-impact-of-removing-certain-features)
 10. [Conclusion](#conclusion)
 
 ---
