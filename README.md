@@ -480,14 +480,18 @@ print(f"Mean Squared Error using Top 5 Features (Ridge Model): {mse_top5:.4f}")
     
 
 # **1. Impact of Removing Certain Features**  
-**What happens when you remove certain features?** Removing features may degrade the model's performance if the removed features carry significant predictive power. Alternatively, removing irrelevant or noisy features can improve model performance by reducing overfitting and improving generalization.  
+**What happens when you remove certain features?**  Removing features may degrade the model's performance if the removed features carry significant predictive power. Alternatively, removing irrelevant or noisy features can improve model performance by reducing overfitting and improving generalization.  
 # **2. Importance of Data Splitting**  
-**Why is it necessary to split the data?** Data should be split into training, validation, and testing sets to ensure that the model generalizes well to unseen data. If we use the same data for training and testing, the model might memorize the data (overfitting) and fail to generalize to new, unseen data.  
-**Consequences of skipping this step?** If we skip this step, the model might have inflated performance metrics, but it will likely perform poorly when deployed in the real world, where it will encounter new data.  
+**Why is it necessary to split the data?**  Data should be split into training, validation, and testing sets to ensure that the model generalizes well to unseen data. If we use the same data for training and testing, the model might memorize the data (overfitting) and fail to generalize to new, unseen data.  
+**Consequences of skipping this step?**  If we skip this step, the model might have inflated performance metrics, but it will likely perform poorly when deployed in the real world, where it will encounter new data.  
 # **3. Generalization Ability**  
-**How is generalization assessed?** The model's ability to generalize is assessed by its performance on the test data, which is data that it has never seen before. A high R² and low error on the test set indicate good generalization.  
-**Steps to ensure good generalization:**  
+**How is generalization assessed?**  The model's ability to generalize is assessed by its performance on the test data, which is data that it has never seen before. A high R² and low error on the test set indicate good generalization.  
+**Steps to ensure good generalization:**    
 Use cross-validation during model selection (not just a single validation split).  
 Regularize the model (as done with Ridge) to avoid overfitting.  
 Ensure that the test set is kept separate from the training process to provide an unbiased estimate of model performance on new data.  
 
+
+# **Conclusion**
+In this project, we applied Ridge Regression to predict Heating Load based on building features. Through hyperparameter tuning, feature selection, and evaluation, we demonstrated how Ridge regularization can improve model generalization. The model performed well with an R² of 0.92 on the test set, indicating strong predictive power.
+For further improvements, consider experimenting with additional regularization techniques, feature engineering, or more advanced models.
