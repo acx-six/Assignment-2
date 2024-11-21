@@ -6,10 +6,10 @@
 3. [Dataset](#load-the-dataset)
 4. [Data Preprocessing](#data-preprocessing)
 5. [Model Training and Hyperparameter Tuning (Ridge Regularization)](#model-training-and-hyperparameter-tuning-ridge-regularization)
-6. [Final Model Evaluation](#final-model-evaluation-on-test-data)
+6. [Final Model Evaluation](#final-evaluation-on-test-data)
 7. [Model Coefficients and Feature Importance](#model-coefficients-and-feature-importance)
 8. [Evaluating with Top 5 Features](#evaluating-with-top-5-features)
-9. [Key Observations](#1.-Impact-of-Removing-Certain-Features)
+9. [Key Observations](#impact-of-removing-certain-features)
 10. [Conclusion](#conclusion)
 
 ---
