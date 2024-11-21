@@ -1,4 +1,35 @@
-# Linear Regression With Ridge
+# Linear Regression with Ridge Regularization
+
+## 📋 Table of Contents
+1. [Introduction](#introduction)
+2. [Dependencies](#dependencies)
+3. [Dataset](#dataset)
+4. [Data Preprocessing](#data-preprocessing)
+5. [Model Training and Hyperparameter Tuning](#model-training-and-hyperparameter-tuning)
+6. [Final Model Evaluation](#final-model-evaluation)
+7. [Model Coefficients and Feature Importance](#model-coefficients-and-feature-importance)
+8. [Evaluating with Top 5 Features](#evaluating-with-top-5-features)
+9. [Key Learnings](#key-learnings)
+10. [Conclusion](#conclusion)
+
+---
+
+## 📝 Introduction
+
+This repository demonstrates the application of **Linear Regression with Ridge Regularization** on a dataset to predict heating load in buildings based on several architectural and environmental features. The project includes preprocessing, feature selection, model tuning, evaluation, and visualization to assess the model's performance. The aim is to showcase how Ridge regularization can help manage multicollinearity and improve the model's generalization capabilities.
+
+---
+
+## 🔧 Dependencies
+
+The following libraries are required to run this project:
+
+```bash
+numpy
+pandas
+matplotlib
+scikit-learn
+
 
 # **Import Necessary Libraries**
 
